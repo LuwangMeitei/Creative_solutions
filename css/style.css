@@ -11,9 +11,11 @@ body {
 }
 
 nav {
-  background: #91CD18;
-  height: 80px;
   width: 100%;
+  height: 80px;
+  background: #91CD18;
+  
+  
 }
 
 .logo {
