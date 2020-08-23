@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #C6E981;
+  font-family: 'Lato', monospace;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  margin: -10px;
+}
+
+.topnav li {
+  list-style-type: none;
+  align-items: center;
+}
+
+.topnav ul {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 16px 10px 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lato', serif;
+  font-style: normal;
+}
+
+.topnav a:hover {
+  background-color: #C6E981;
+  color: black;
+}
+
+.contenttop {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contenttop k {
+  font-family: 'Lato', serif;
+  font-size: 150px;
+  text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+}
+
+.contenttop p {
+  font-family: 'courier', monospace;
+  font-size: 50px;
+}
+
+.active {
+  background-color: #C6E981;
+  color: black;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.contentmid {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Lato', serif;
+  font-size: 150px;
+  font-weight: lighter;
+  margin-bottom: 100px;
+}
+
+.contentmid p {
+  text-align: center;
+  font-family: 'Lato', serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.contentmid table {
+  font-family: 'Lato', serif;
+  table-layout: auto;
+  text-align: left;
+  font-size: 30px;
+  width: 100%;
+}
+
+.contentmid td {
+  width: 10%;
+  font-family: 'Lato', serif;
+}
+
+.contentbot {
+  font-family: 'Lato', serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contentbot c {
+  font-family: 'Lato', serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.button {
+  background-color: #75B81C;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #75B81C;
+  color: white;
+}
+
+.footer {
+  align-content: center;
+}
+
+.footer img {
+  height: auto;
+  width: 40%;
+}
